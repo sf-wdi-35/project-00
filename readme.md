@@ -117,7 +117,7 @@ By the time you submit this project, you will have leveled-up in many big themes
 ###### How do I turn in the project?
 
 * As you make code changes, frequently commit and push to GitHub.
-* Once you've finished the project and pushed your work to GitHub, please add the link to your project's GitHub repo to <a href="https://drive.google.com/open?id=1Fadu762k2cK_SQIiZHYPGnsKn41Yxdj9sxAi1Q2WTWM" target="_blank">this spreadsheet</a>.
+* Once you've finished the project and pushed your work to GitHub, please add the link to your project's GitHub repo to <a href="https://docs.google.com/spreadsheets/d/1eu4_B9iu1TBRsAgYUdpvb3Y949E8stqSo62SMnBPws8/edit#gid=1325629613" target="_blank">this spreadsheet</a>. (It's in our Drive folder, and is the same one we used to submit portfolios; it'll stay the same the rest of the course.)
 
 ## Bonus
 
