@@ -4,7 +4,7 @@ A two-player car racing game using key presses.
 
 ## Technologies Used
 * jQuery
-# Vanilla JS
+* Vanilla JS
 * HTML
 * CSS
 * Bootstrap
