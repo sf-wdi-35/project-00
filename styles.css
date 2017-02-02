@@ -1,0 +1,35 @@
+.player{
+	height: 50px;
+	width: 75px;
+	position: relative;
+	left: 0px;
+}
+#red{
+	background-image: url("http://res.freestockphotos.biz/pictures/15/15685-illustration-of-a-red-cartoon-car-pv.png");
+	background-size: 100% 100%;
+}
+#blue{
+	background-image: url("http://www.clker.com/cliparts/R/K/W/x/W/V/blue-car-styalized-hi.png");
+	background-size: 100% 100%;
+}
+.raceTrack{
+	background-color: gray;
+	border-radius: 10px;
+	padding: 0px;
+}
+.race-strip{
+	border: 5px dashed black;
+}
+.container{
+	padding: 0px;
+}
+.winner{
+	font-size: 70px;
+	font-style: italic;
+}
+.clock{
+	font-size: 80px;
+}
+button{
+	margin-top: 20px;
+}
