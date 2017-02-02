@@ -5,6 +5,10 @@ body {
 	background: yellow;
 }
 
+audio {
+	display:none;
+}
+
 .container-fluid {
 	padding: 0;
 }

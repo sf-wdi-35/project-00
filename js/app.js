@@ -31,12 +31,18 @@ $(document).ready(function() {
 			if (player1.left >= finish.left && player2.left >= finish.left) {
 					//create a tie window because the players don't actually move simultaneously.
 			} else if (player1.left >= finish.left){
-				alert("player 1 is the winner")
+				playAudio();
 				//prevent players from moving further
 			} else if (player2.left >= finish.left) {
 				alert("player 2 is the winner")
 				//
 			}
 	})
+
+
+	function playAudio() {
+		var audio = document.querySelector('audio');
+		audio.play();
+	}
 	
 })
