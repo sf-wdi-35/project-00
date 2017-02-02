@@ -28,12 +28,12 @@ $(document).ready(function() {
 
 			//Winning and Tie Conditions
 
-			if (player1.left == finish.left && player2.left == finish.left) {
+			if (player1.left >= finish.left && player2.left >= finish.left) {
 					//create a tie window because the players don't actually move simultaneously.
-			} else if (player1.left == finish.left){
+			} else if (player1.left >= finish.left){
 				alert("player 1 is the winner")
 				//prevent players from moving further
-			} else if (player2.left == finish.left) {
+			} else if (player2.left >= finish.left) {
 				alert("player 2 is the winner")
 				//
 			}
