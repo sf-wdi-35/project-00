@@ -26,16 +26,17 @@ $(document).ready(function() {
 				$("#player2").offset({top: player2.top, left: player2.left +=20});
 			}
 
+			//Winning and Tie Conditions
+
 			if (player1.left == finish.left && player2.left == finish.left) {
-					alert("it's a tie"); //create a tie window because the players don't actually move simultaneously.
+					//create a tie window because the players don't actually move simultaneously.
 			} else if (player1.left == finish.left){
 				alert("player 1 is the winner")
+				//prevent players from moving further
 			} else if (player2.left == finish.left) {
 				alert("player 2 is the winner")
+				//
 			}
 	})
-
-	//Win condition: when players' left position exceeds the left position of a finish line, the player game stops.
-
 	
 })
