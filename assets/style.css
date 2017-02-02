@@ -1,9 +1,16 @@
 body {
+  background: url(1.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover; /* For WebKit*/
+   -moz-background-size: cover;    /* Mozilla*/
+   -o-background-size: cover;      /* Opera*/
+   background-size: cover;
+   padding-top: 85px;
+
 }
 
 h1 {
   font-family: 'Barrio', cursive!important;
-  font-size: 55px!important;
+  font-size: 60px!important;
 }
 
 div#bunny-lane {
