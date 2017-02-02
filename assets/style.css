@@ -1,0 +1,33 @@
+body {
+}
+
+h1 {
+  font-family: 'Barrio', cursive!important;
+  font-size: 55px!important;
+}
+
+div#bunny-lane {
+  margin-top: 50px;
+}
+
+div.bunny {
+  position: absolute;
+  background-color: #FBC1D5;
+  left: 50px;
+  width: 90px;
+  height: 90px;
+  margin: 15px;
+}
+
+div#turtle-lane {
+  margin-top: 150px;
+}
+
+div.turtle {
+  position: absolute;
+  background-color: #D6FBCB;
+  left: 50px;
+  width: 90px;
+  height: 90px;
+  margin: 15px;
+}
