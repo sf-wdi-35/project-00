@@ -1,4 +1,4 @@
-
+//console.log('sanity check');
 $(document).ready(function() {
 
   $(window).on('keypress', function(e) {
@@ -12,5 +12,5 @@ $(document).ready(function() {
       $( ".bunny" ).animate({ "left": "+=50px" }, "slow" );
     }
   });
-
-});
+  
+})

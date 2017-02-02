@@ -9,8 +9,9 @@ body {
 }
 
 h1 {
-  font-family: 'Barrio', cursive!important;
+  font-family: 'Homemade Apple', cursive!important;
   font-size: 60px!important;
+
 }
 
 div#bunny-lane {
@@ -19,7 +20,7 @@ div#bunny-lane {
 
 div.bunny {
   position: absolute;
-  background-color: #FBC1D5;
+  background-color: #FFD0CF;
   left: 50px;
   width: 90px;
   height: 90px;
@@ -32,7 +33,7 @@ div#turtle-lane {
 
 div.turtle {
   position: absolute;
-  background-color: #D6FBCB;
+  background-color: #CBEFE3;
   left: 50px;
   width: 90px;
   height: 90px;
