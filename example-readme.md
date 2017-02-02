@@ -1,14 +1,17 @@
 # Racing Game
 
-*Short explanation of the project (1-2 sentences) - what is the goal of the project and/or main functionality?*
+A racing game between a bunny and a turtle!
 
 ## Technologies Used
 
-*What technologies did you use to develop this project? (bullet points)*
+- HTML
+- CSS, bootstrap CSS
+- javaScript
 
 ## Existing Features
 
-*What features does your racing game have? (bullet points)*
+- Using jquery event listener and specific key code, I was able to move racers with distinct keys.
+- jquery .animate() method lets racers to traverse across the web page.
 
 ## Planned Features
 
