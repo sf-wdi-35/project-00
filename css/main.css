@@ -3,7 +3,22 @@ body {
 }
 
 div {
+	width: 100px;
+	height: 100px;
+}
+
+#player1 {
 	background: green;
-	width: 200px;
-	height: 200px;
+}
+
+#player2 {
+	background: blue;
+	position: absolute;
+	top: 200px;
+}
+
+#finish {
+	background: red;
+	position: absolute;
+	left: 800px;
 }
