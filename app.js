@@ -30,15 +30,21 @@ $(document).ready(function(){
 	}
 	function start(){
  		setTimeout(function(){
- 			$('.clock').html("3")
+ 			$('.clock').html("3");
+ 			$('.clock').fadeOut(950);
  		},0)
  		setTimeout(function(){
+ 			$('.clock').show();
  			$('.clock').html("2")
+ 			$('.clock').fadeOut(950);
  		},1000)
  		setTimeout(function(){
+	 		$('.clock').show();
 	 		$('.clock').html("1")
+	 		$('.clock').fadeOut(950);
 	 	},2000)
 	 	setTimeout(function(){
+	 			$('.clock').show();
 	 			$('.clock').html("GO!")
 	 			race();
 	 	},3000)
