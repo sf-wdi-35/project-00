@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 body {
-	background: yellow;
+	background: #f9f9f9;
 }
 
 audio {
@@ -80,4 +80,18 @@ audio {
 	background-size: initial;
 	position: absolute;
 	left: 88%;
+}
+
+.info, .status {
+	padding: 10px 30px;
+}
+
+.info p {
+	margin: 0;
+}
+
+.winner {
+	color: red;
+	margin: 40px 0;
+	font-size: 40px;
 }

@@ -26,23 +26,36 @@ $(document).ready(function() {
 				$("#player2").offset({top: player2.top, left: player2.left +=20});
 			}
 
-			//Winning and Tie Conditions
+			//Winning Conditions
 
-			if (player1.left >= finish.left && player2.left >= finish.left) {
-					//create a tie window because the players don't actually move simultaneously.
-			} else if (player1.left >= finish.left){
+		 if (player1.left >= finish.left){
 				playAudio();
-				//prevent players from moving further
+				$(".winner").addClass("animated bounce infinite").text("Congratulations, Player 1! You Won!");
+				setTimeout(startNewGame, 6000)
 			} else if (player2.left >= finish.left) {
-				alert("player 2 is the winner")
-				//
+				playAudio();
+				$(".winner").addClass("animated bounce infinite").text("Congratulations, Player 2! You Won!");
+				setTimeout(startNewGame, 6000)
 			}
 	})
+
+	$("button").click(startNewGame);
 
 
 	function playAudio() {
 		var audio = document.querySelector('audio');
 		audio.play();
+	}
+
+	function startNewGame() {
+		$("#player1").offset({top: 250, left: 0});
+		player1.top = 250;
+		player1.left = 0;
+		$("#player2").offset({top: 400, left: 0})
+		player2.top = 400;
+		player2.left = 0;
+
+		$(".winner").removeClass("animated bounce infinite").text("");
 	}
 	
 })
